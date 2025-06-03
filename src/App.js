@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-      <div style={{ minHeight: "87vh" }} className="pt-5">
+      <div style={{ minHeight: "87vh" }} className="pt-5 mainn">
         <Navbar search={search} handleInput={handleInput} myfunc={myfunc} />
         <h4 style={{ textAlign: "center", padding: "20px" }}>{msg}</h4>
         <Mealcard detail={data} />
